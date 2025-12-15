@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Vision Live Dashboard</title>
+  <style>
+    body { background:#0b0f1a; color:#0ff; font-family:Arial; text-align:center }
+    video { width:70%; border:2px solid cyan; margin-top:20px }
+    button { padding:10px 20px; margin:10px; font-size:16px }
+  </style>
+</head>
+<body>
+
+<h1>AI Vision Live Dashboard</h1>
+<p id="state">STATE: STABLE</p>
+
+<button onclick="awaken()">Awaken</button>
+<button onclick="resetMatrix()">Reset</button>
+
+<video id="player" controls>
+  <source src="static/videos/awakening.mp4" type="video/mp4">
+</video>
+
+<script src="static/js/app.js"></script>
+</body>
+</html>
